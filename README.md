@@ -13,19 +13,19 @@ g++ -o runProgram
 
 ## What I learned
 
-### Lesson1
+Import library or package that can be accessed and used in code.
 
 ```cpp 
 #include <library_name>
 ```
-This imports library or package that can be accessed and used in code.
+
+namespace is a declarative region that provides a scope to the indentifiers (the names of types, functions, variables, etc) inside it.
+
+If this line is included, I don't have to reference std:: before a function call
 
 ```cpp
 using namespace std;
 ```
-namespace is a declarative region that provides a scope to the indentifiers (the names of types, functions, variables, etc) inside it.
-
-If this line is included, I don't have to reference std:: before a function call
 
 std = standart
 
@@ -59,8 +59,6 @@ cout << "Hello World!\n";
 cout << "Hello World!" << endl;
 ```
 
-### Lesson2
-
 Define two variables with the same data type
 
 ```cpp
@@ -69,8 +67,6 @@ int x, y;
 x = 5;
 y = 6;
 ```
-
-### Lesson3
 
 data types with const before them can't be changed
 
