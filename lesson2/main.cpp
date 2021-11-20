@@ -9,5 +9,12 @@ int main(){
     string hello = "Hello";
     char h = 'h';
 
-    cout << x;
+    int number_1, number_2;
+
+    number_1 = 5;
+    number_2 = 3;
+
+    int result = number_1 + number_2;
+
+    cout << result;
 }
