@@ -70,6 +70,14 @@ x = 5;
 y = 6;
 ```
 
+### Lesson3
+
+data types with const before them can't be changed
+
+```cpp
+const int number = 5;
+```
+
 ## Data types
 
 ```cpp
