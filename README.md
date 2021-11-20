@@ -78,6 +78,15 @@ data types with const before them can't be changed
 const int number = 5;
 ```
 
+get input data
+
+cin = character input
+```cpp
+int n;
+
+cin >> n;
+```
+
 ## Data types
 
 ```cpp
