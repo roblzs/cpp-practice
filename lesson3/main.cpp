@@ -8,6 +8,5 @@ int main(){
     cout << "Enter username: ";
     cin >> username;
 
-    cout << endl;
-    cout << "Hello" << " " << username << "!";
+    cout << endl << "Hello" << " " << username << "!";
 }
