@@ -58,3 +58,19 @@ endl = end line (a cleaner way to get to the next line in console)
 cout << "Hello World!\n";
 cout << "Hello World!" << endl;
 ```
+
+## Data types
+
+```cpp
+int x = 10;
+float y = 3.6;
+bool is_true = true;
+string hello = "Hello";
+char h = 'h'; // a single character in between single quotation marks ('')
+```
+
+To use string data type, string library must be imported
+
+```cpp
+#include <string>
+```
