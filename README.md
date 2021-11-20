@@ -93,7 +93,7 @@ int n;
 
 cin >> n;
 cin.clear();
-cin.ignore(1000, "\n");
+cin.ignore(1000, '\n');
 
 cout << n;
 ```
