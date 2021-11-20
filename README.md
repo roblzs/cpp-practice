@@ -87,6 +87,17 @@ int n;
 cin >> n;
 ```
 
+clear cin error from console
+```cpp
+int n;
+
+cin >> n;
+cin.clear();
+cin.ignore(1000, "\n");
+
+cout << n;
+```
+
 ## Data types
 
 ```cpp
