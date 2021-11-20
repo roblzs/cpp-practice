@@ -59,6 +59,17 @@ cout << "Hello World!\n";
 cout << "Hello World!" << endl;
 ```
 
+### Lesson2
+
+Define two variables with the same data type
+
+```cpp
+int x, y;
+
+x = 5;
+y = 6;
+```
+
 ## Data types
 
 ```cpp
@@ -74,3 +85,10 @@ To use string data type, string library must be imported
 ```cpp
 #include <string>
 ```
+
+## Variable naming rules:
+
+* must be unique
+* can't contain any special characters besides _
+* can't start with number
+* should be descriptive
