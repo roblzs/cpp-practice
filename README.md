@@ -28,6 +28,7 @@ namespace is a declarative region that provides a scope to the indentifiers (the
 If this line is included, I don't have to reference std:: before a function call
 
 std = standart
+
 cout = character output
 
 This line finds namespace in <iostream> library with a name of std and selects a function cout:
