@@ -25,6 +25,8 @@ using namespace std;
 ```
 namespace is a declarative region that provides a scope to the indentifiers (the names of types, functions, variables, etc) inside it.
 
+If this line is included, I don't have to reference std:: before a function call
+
 std = standart
 
 ```cpp
